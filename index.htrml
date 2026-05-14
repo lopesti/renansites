@@ -9,6 +9,11 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+<style>
+  /* Cole todo o seu código CSS aqui dentro */
+  body { background-color: red !important; }
+</style>
     <div class="login-container">
         <form class="login-form">
             <h2>Bem-vindo</h2>
