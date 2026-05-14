@@ -1,47 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Profissional</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Importando ícones (opcional) -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Teste de Login</title>
+    <style>
+        /* CSS DIRETO NO HTML PARA NÃO TER ERRO */
+        body {
+            background-color: #4f46e5 !important; /* O fundo TEM que ficar azul */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        .box {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        input {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width: 200px;
+        }
+        button {
+            background: #4f46e5;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
 
-<style>
-  /* Cole todo o seu código CSS aqui dentro */
-  body { background-color: red !important; }
-</style>
-    <div class="login-container">
-        <form class="login-form">
-            <h2>Bem-vindo</h2>
-            <p>Entre com sua conta para continuar</p>
-
-            <div class="input-group">
-                <label for="email">E-mail</label>
-                <input type="email" id="email" placeholder="seu@email.com" required>
-            </div>
-
-            <div class="input-group">
-                <label for="password">Senha</label>
-                <input type="password" id="password" placeholder="••••••••" required>
-            </div>
-
-            <div class="form-options">
-                <label>
-                    <input type="checkbox"> Lembrar-me
-                </label>
-                <a href="#">Esqueceu a senha?</a>
-            </div>
-
-            <button type="submit" class="btn-login">Entrar</button>
-
-            <div class="footer-link">
-                Não tem uma conta? <a href="#">Cadastre-se</a>
-            </div>
-        </form>
+    <div class="box">
+        <h2>Login</h2>
+        <input type="text" placeholder="Usuário">
+        <input type="password" placeholder="Senha">
+        <button>Entrar</button>
     </div>
+
 </body>
 </html>
